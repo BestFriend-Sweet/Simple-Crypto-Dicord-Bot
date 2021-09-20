@@ -16,12 +16,6 @@ Before running the code make sure to install the packages listed below
 ```python 
 pip3 install discord.py
 ```
-
-### Discord.py
-
-```python 
-pip3 install discord.py
-```
 ### CoinGeko API Wrapper
 
 ```python
