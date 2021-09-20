@@ -4,6 +4,8 @@ import os
 
 cg = CoinGeckoAPI()
 
+repository = "https://github.com/ColdBio/Simple-Crypto-Dicord-Bot"
+
 btc_data = cg.get_price(ids='bitcoin', vs_currencies='gbp')
 eth_data = cg.get_price(ids='ethereum', vs_currencies='gbp')
 xrp_data = cg.get_price(ids='ripple', vs_currencies='gbp') # People are still referring XRP as Ripple q-_-p
@@ -91,6 +93,9 @@ async def on_message(message):
 
     if message.content.startswith("$market_dominance"):
         await message.channel.send(f"Market Cap Percentage\n-------------------------------------\n{market_dom}")
+        
+    if message.content.startswith("$about"):
+        await message.channel.send(f"Thank you for using this discord bot.\nTo view how I was made visit here: {repository}")
 
     if message.content.startswith("$btc"):
         await message.channel.send(f"£{btc_price}")
