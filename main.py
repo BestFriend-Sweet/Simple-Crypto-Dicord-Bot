@@ -83,7 +83,7 @@ async def on_message(message):
 
     if message.content.startswith("$help"):
         await message.channel.send("""
-        The following crypto prices are available, btc, eth, xrp, link, vet, and avax.
+        The following crypto prices are available, btc, eth, xrp, link, vet, dogecoin, ada, and avax.
         To get the price of your chosen coin/token, simply place '$' before the abbreviated name of your token. For example $eth
         List of available commands:
         $trending""")
