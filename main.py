@@ -31,6 +31,12 @@ avax_price = list(avax_key.values())[0]
 vet_key = list(vet_data.values())[0]
 vet_price = list(vet_key.values())[0]
 
+print(f"£{btc_price}")
+print(f"£{eth_price}")
+print(f"£{xrp_price}")
+print(f"£{link_price}")
+print(f"£{avax_price}")
+
 
 client = discord.Client()
 
@@ -45,7 +51,7 @@ async def on_message(message):
         return
 
     if message.content.startswith("$help"):
-        await message.channel.send("The follow crypto prices are available, btc, eth, xrp, link, vet, and avax.\n To get the price of your chosen coin/token, simply place '$' before the name of your token. For example $eth")
+        await message.channel.send("The following crypto prices are available, btc, eth, xrp, link, vet, and avax.\n To get the price of your chosen coin/token, simply place '$' before the abbreviated name of your token. For example $eth")
 
     if message.content.startswith("$btc"):
         await message.channel.send(f"£{btc_price}")
@@ -65,5 +71,7 @@ async def on_message(message):
     if message.content.startswith("$vet"):
         await message.channel.send(f"£{vet_price}")
     
+
+
 
 client.run("{replace with your own discord bot token}")
