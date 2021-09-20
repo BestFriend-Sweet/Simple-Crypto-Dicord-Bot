@@ -7,6 +7,8 @@ Currently available crypto prices:
 - Chainlink
 - Vechain
 - Avalanche
+- Cardano
+- Dogecoin
 
 ## Installation
 Before running the code make sure to install the packages listed below
@@ -22,5 +24,4 @@ pip3 install discord.py
 pip3 install pycoingecko
 ```
 ## Demo
-<img width="607" alt="Screenshot 2021-09-20 at 20 03 15" src="https://user-images.githubusercontent.com/64978825/134059646-fae7cefb-094c-41c8-8ca8-0a4f315f520d.png">
-
+<img width="607" alt="Screenshot 2021-09-20 at 20 03 15",  src="https://user-images.githubusercontent.com/64978825/134059646-fae7cefb-094c-41c8-8ca8-0a4f315f520d.png">
