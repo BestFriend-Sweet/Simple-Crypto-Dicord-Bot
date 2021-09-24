@@ -34,4 +34,6 @@ pip3 install pycoingecko
 - `$market_dominance`:- Returns a list of most dominant coins in terms of overall market cap percentage
 
 ## Demo
-<img width="607" alt="Screenshot 2021-09-20 at 20 03 15" src="https://user-images.githubusercontent.com/64978825/134059646-fae7cefb-094c-41c8-8ca8-0a4f315f520d.png">
+Bitcoin |  XRP
+:-------------------------:|:-------------------------:
+<img width="488" alt="Screenshot 2021-09-24 at 17 37 14" src="https://user-images.githubusercontent.com/64978825/134710547-c4d79ba1-defc-44e1-a9c3-59f5f19befd3.png">|<img width="488" alt="Screenshot 2021-09-24 at 17 37 28" src="https://user-images.githubusercontent.com/64978825/134710541-c0f5bd0d-54a7-4d2c-8fbf-abdf6e687315.png">|
