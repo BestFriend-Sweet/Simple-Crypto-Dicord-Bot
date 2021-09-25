@@ -195,6 +195,9 @@ async def on_ready():
 
 @client.event
 async def on_message(message):
+    # Converts user's input into a lowercase form
+    message.content = message.content.lower().replace(' ', '')
+    
     if message.author == client.user:
         return
 
