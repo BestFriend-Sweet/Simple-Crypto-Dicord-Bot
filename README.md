@@ -9,6 +9,8 @@ Currently available crypto prices:
 - Avalanche
 - Cardano
 - Dogecoin
+- Filecoin
+- Quant
 
 ## Motivation
 I created this rather simple discord bot to provide convenient crypto related data for me and my friends on our shared discord server  
