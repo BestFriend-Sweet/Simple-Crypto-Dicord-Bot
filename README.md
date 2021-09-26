@@ -31,9 +31,9 @@ pip3 install pycoingecko
 
 ## Commands
 - `$help`:- Informes the user which coins/tokens are supported and how to call their prices
-- `$about`:- Where to find the source code for the bot and who the creater is
+- `$about`:- Where to find the source code and who the creater is
 - `$trending`:- Provides the top 7 trending search coins/tokens 
-- `$market_dominance`:- Returns a list of most dominant coins in terms of overall market cap percentage
+- `$market_dominance`:- Returns a list of the most dominant coins in terms of overall market cap percentage
 
 ## Demo
 Bitcoin |  XRP
