@@ -16,7 +16,7 @@ class Coin:
         self.coin_image = self.coin_data[0]["image"]
         self.coin_price = "£{:,}".format(self.coin_data[0]['current_price'])
 
-        self.coin_circulating_supply = self.coin_data[0]["circulating_supply"]
+        self.coin_circulating_supply = "{:,}".format(self.coin_data[0]["circulating_supply"])
         self.coin_market_cap = "{:,}".format(self.coin_data[0]['market_cap'])
 
         self.coin_high_24h = "£{:,}".format(self.coin_data[0]['high_24h'])
