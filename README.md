@@ -11,6 +11,7 @@ Currently available crypto prices:
 - Dogecoin
 - Filecoin
 - Quant
+- Algorand
 
 ## Motivation
 I created this rather simple discord bot to provide convenient crypto related data for me and my friends on our shared discord server  
