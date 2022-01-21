@@ -35,6 +35,7 @@ pip3 install pycoingecko
 - `$about`:- Where to find the source code and who the creater is
 - `$trending`:- Provides the top 7 trending search coins/tokens 
 - `$market_dominance`:- Returns a list of the most dominant coins in terms of overall market cap percentage
+- `$news`:- Returns top 5 articles related to cryptocurrencies in to your DM (requires improvement❗️)
 
 ## Demo
 Bitcoin |  XRP
