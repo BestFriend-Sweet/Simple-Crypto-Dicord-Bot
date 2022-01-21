@@ -111,7 +111,7 @@ async def on_message(message):
 
     # New feature:- Return the top 5 news articles related to crypto from the NewAPI.
     # One small issue is that the articles will remain the same until the bot is reloaded.
-    # Once reloadedm it fetches new articles if there are any from the API
+    # Once reloadedm it fetche new articles if there are any from the API
     if message.content.startswith('$news'):
         count = 0
         await message.channel.send(f"Hey! {author.user.name}, check your DMs for the todays Top 5 news articles")
