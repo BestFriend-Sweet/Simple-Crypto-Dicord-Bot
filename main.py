@@ -1,10 +1,18 @@
 import discord
 from typing import Type
 from pycoingecko import CoinGeckoAPI
+import json
+import requests
 
 cg = CoinGeckoAPI()
 client = discord.Client()
 repository = "https://github.com/ColdBio/Simple-Crypto-Dicord-Bot"
+
+response = requests.get("https://newsapi.org/v2/everything?q=crypto&apiKey={insert your own key}")
+data = json.loads(response.text)
+
+all_articles = data['articles']
+
 
 class Coin:
     def __init__(self, name):
@@ -99,6 +107,19 @@ async def on_message(message):
         
     if message.content.startswith("$about"):
         await message.channel.send(f"Thank you for using this discord bot.\nTo view how I was made visit here: {repository}")
+
+
+    # New feature:- Return the top 5 news articles related to crypto from the NewAPI.
+    # One small issue is that the articles will remain the same until the bot is reloaded.
+    # Once reloadedm it fetches new articles if there are any from the API
+    if message.content.startswith('$news'):
+        count = 0
+        await message.channel.send(f"Hey! {author.user.name}, check your DMs for the todays Top 5 news articles")
+        for each in all_articles:
+            count += 1
+            await message.author.send(f"**{count}:- {each['title']}**\n*{each['content']}*\n{each['url']}")
+            if count == 5:
+                break
 
 
     if message.content.startswith('$btc'):
@@ -383,5 +404,4 @@ async def on_message(message):
         await message.channel.send(embed=embed)
 
 
-client.run("{replace with your own token}")
-
+client.run("{insert your own discord API Key}")
