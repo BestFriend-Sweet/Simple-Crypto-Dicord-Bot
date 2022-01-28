@@ -38,6 +38,6 @@ pip3 install pycoingecko
 - `$news`:- Returns top 5 articles related to cryptocurrencies in to your DM (requires improvement❗️)
 
 ## Demo
-Bitcoin |  XRP
+XRP |  Bitcoin
 :-------------------------:|:-------------------------:
-<img width="488" alt="Screenshot 2021-09-24 at 17 37 14" src="https://user-images.githubusercontent.com/64978825/134710547-c4d79ba1-defc-44e1-a9c3-59f5f19befd3.png">|<img width="488" alt="Screenshot 2021-09-24 at 17 37 28" src="https://user-images.githubusercontent.com/64978825/134710541-c0f5bd0d-54a7-4d2c-8fbf-abdf6e687315.png">|
+<img width="498" alt="Screenshot 2022-01-28 at 18 18 05" src="https://user-images.githubusercontent.com/64978825/151600552-57b17b32-fc18-4277-9cda-e0cdb7a5d677.png">|<img width="482" alt="Screenshot 2022-01-28 at 18 18 22" src="https://user-images.githubusercontent.com/64978825/151600559-514f1127-fed1-4c39-bb02-0fcfcdb68e78.png">|
