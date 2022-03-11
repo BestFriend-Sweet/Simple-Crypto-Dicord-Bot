@@ -16,8 +16,7 @@ from xrpl.models.requests.account_info import AccountInfo
 cg = CoinGeckoAPI()
 client = discord.Client()
 bot = commands.Bot(command_prefix="$")
-repository = "https://github.com/
-/Simple-Crypto-Dicord-Bot"
+repository = "https://github.com/ColdBio/Simple-Crypto-Dicord-Bot"
 
 response = requests.get("https://newsapi.org/v2/everything?q=crypto&apiKey={insert your own api key}")
 data = json.loads(response.text)
