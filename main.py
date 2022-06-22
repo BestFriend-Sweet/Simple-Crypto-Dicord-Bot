@@ -1,6 +1,4 @@
-from tokenize import String
 import discord
-from typing import Type
 import matplotlib.pyplot as plt
 from pycoingecko import CoinGeckoAPI
 import json
@@ -8,10 +6,6 @@ import pandas as pd
 from datetime import datetime
 import requests
 from discord.ext import commands 
-from xrpl import account
-from xrpl.clients import JsonRpcClient
-from xrpl.wallet import generate_faucet_wallet
-from xrpl.models.requests.account_info import AccountInfo
 
 cg = CoinGeckoAPI()
 client = discord.Client()
